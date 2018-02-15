@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Estudiantes</title>
+  </head>
+  <body>
+
+    <h1>Registro de Estudiante</h1>
+
+    Codigo:
+    <br><input type="text" id="codigo" value="" /><br>
+    Nombre:
+    <br><input type="text" id="nombre" value="" /><br>
+    Nota:
+    <br><input type="text" id="nota" value="" /><br>
+    <br>
+    <button id="registro">Registrar Estudiante</button>
+    <button id="Calcular_Prom">Mostrar Promedio</button>
+    <button id="nota_mayor">Mostrar Nota Mayor</button>
+    <button id="nota_menor">Mostrar Nota Menor</button>
+
+    <h1>Listado de Estudiantes</h1>
+
+    <table border="1" id="otraprueba">
+
+    	<td>Codigo</td><td>Nombre</td><td>Nota</td>
+    	<tr></tr>
+        <td>
+        <input type="text" id="codigo1" value="" disabled="" /></td>
+        <td>
+        <input type="text" id="nombre1" value="" disabled="" /></td>
+        <td>
+        <input type="text" id="nota1" value="" disabled="" /></td>
+        <tr></tr>
+    	<td id="codigo12"></td><td id="nombre12"></td><td id="nota12"></td>
+    	<tr></tr>
+    </table>
+    <div id="ultimaprueba"></div>
+
+<script src="js/js.js" type="text/javascript"></script>
+
+  </body>
+</html>
